@@ -1,5 +1,10 @@
 /*Navbar CSS Style*/
 /*contendor index*/
+
+.custom-bg{
+  background-color: #e7eaf6;
+}
+
 .contenedor_text p{
 display: flex;
 padding: 15px;
@@ -35,7 +40,7 @@ animation:backwards;
   transition: 0.5s;
 }
 
-
+/*Figura de ejmplo editada*/
 body .scene_titan .eyes .eye, body .scene_saturn__face .face_clip .eye, body .scene, body .scene_titanShadow, body .scene_titan, body .scene_saturn, body .scene_saturn__shadow, body .scene_saturn__shadowRing, body .scene_saturn__face, body .scene_saturn__face .face_clip .mouth, body .scene_saturn__sparks, body .scene_saturn__sparks .spark, body .scene_saturn__ring, body .scene_saturn__ring .small, body .scene_saturn__ring .small_part, body .scene_saturn__ring .layer_part {
   position: absolute;
   left: 0;
@@ -71,7 +76,7 @@ body .scene_titanShadow {
   height: 21px;
   border-radius: 100%;
   transform-style: preserve-3d;
-  box-shadow: 0px 200px 20px #291863;
+  box-shadow: 0px 50px 20px #291863;
   animation: titan 6s infinite ease;
   bottom: 400px;
 }
