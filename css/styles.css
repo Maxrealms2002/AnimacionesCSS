@@ -1191,3 +1191,15 @@ img:not(:hover) {
 .cuadrado_dos:hover {
   transform: translateX(100px);
 }
+
+/*Creditos*/
+.img-autor{
+  transition: none;
+  width: 420px;
+  height: auto;
+}
+
+.img-autor:hover{
+  transition: none;
+  transform: scale(1);
+}
