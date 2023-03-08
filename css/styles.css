@@ -40,6 +40,48 @@
   transition: 0.5s;
 }
 
+/*Card Bootstrap*/
+
+.row {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  width: 500px;
+  margin-left: 125px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.card-img-custom {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.card-img-custom:hover {
+  transition: 1s;
+  transform: scale(1);
+}
+
+.card-img-custom:not(hover) {
+  transition: 1s;
+  transform: scale(0.8);
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+  }
+}
+
 /*Figura de ejmplo editada*/
 body .scene_titan .eyes .eye,
 body .scene_saturn__face .face_clip .eye,
@@ -1034,12 +1076,77 @@ body .scene_saturn__ring .layer_part:nth-of-type(50) {
   }
 }
 
-/*desafio edwin*/
-.contenedor {
+/*desafio Raziel*/
+
+.circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.bkg {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(20, 200, 200);
+  border-radius: 50%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo:hover {
+  transform: scale(2) rotate(1turn);
+  transition-duration: 1s;
+}
+
+.logo:not(:hover) {
+  transition-duration: 1s;
+}
+
+.card-title.subtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.cuadrado.raz {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 8, 0);
+  margin-left: 0px;
+  transition: all 0.9s ease-in-out;
+}
+.cuadrado.raz:active {
+  transform: scale(2) rotate(360deg) translateX(-100px);
+  background-color: #07ae31;
+  transition: 1s;
+}
+.cuadrado_dos.raz {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 115, 0);
+  transition: transform 0.9s ease;
+}
+
+.cuadrado_dos.raz:hover {
+  transform: scale(0.5) rotate(360deg) rotateY(360deg)  translateY(100px) translateX(100px);
+  background-color: #2007ae;
+  transition: 1s;
+}
+
+/*desafio edwin*/
+.contenedor {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
 .circulo {
   display: flex;
   justify-content: center;
@@ -1066,7 +1173,7 @@ img:not(:hover) {
   width: 200px;
   height: 200px;
   background-color: rgb(9, 255, 0);
-  margin-left: 80px;
+  margin-left: 0px;
   transition: all 0.9s ease-in-out;
 }
 .cuadrado:hover {

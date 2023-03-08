@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Animaciones CSS</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body class="custom-bg">
-    <!--NavBar-->
-    <nav nav class="navbar navbar-expand-lg" style="background-color: #113f67">
-      <div class="container-fluid">
-        <a class="navbar-brand current" href="index.html">
-          <img
-            src="assets/Icons/css-3.png"
-            alt="Logo"
-            width="30"
-            height="30"
-            class="d-inline-block align-text-top"
-          />
-          Animaciones CSS
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link current" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="desafio.html">Desafio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="practica.html">Practica</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Ejercicio.html">Ejercicio</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animaciones CSS</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+</head>
+
+<body class="custom-bg">
+  <!--NavBar-->
+  <nav nav class="navbar navbar-expand-lg" style="background-color: #113f67">
+    <div class="container-fluid">
+      <a class="navbar-brand current" href="index.html">
+        <img src="assets/Icons/css-3.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" />
+        Animaciones CSS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link current" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="desafio.html">Desafio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica.html">Practica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Ejercicio.html">Ejercicio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Contenido-->
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="assets/img/translate.png" class="card-img-custom" alt="Translacion">
+        <div class="card-body">
+          <h5 class="card-title">translate()</h5>
+          <p class="card-text">esta propiedad mueve la figura de su posición original. Se puede especificar una
+            distancia
+            horizontal y/o vertical en
+            píxeles, porcentajes o unidades relativas. Ejemplo: transform: translate(50px, 20px);</p>
         </div>
       </div>
-    </nav>
-
-    <div class="contenedor_text">
-      <p>
-        La rotación y la transición son dos técnicas comunes en la graficación
-        para crear movimiento y cambios en la apariencia de los objetos en una
-        escena. La rotación se refiere a la acción de girar un objeto alrededor
-        de su eje central. En la graficación, la rotación se puede realizar en
-        cualquier eje, ya sea en el eje X, Y o Z.</p>
-      <p>
-        La rotación se puede aplicar a 
-        objetos individuales o a grupos de objetos, y se puede animar para crear
-        movimientos suaves y naturales. Por otro lado, la transición se refiere
-        a la acción de cambiar gradualmente la apariencia de un objeto de una
-        forma a otra. En la graficación, las transiciones se pueden utilizar
-        para crear efectos visuales sorprendentes al cambiar gradualmente la
-        forma, tamaño o posición de un objeto en la escena.</p>
-      <p>Las transiciones
-        también se pueden animar para crear cambios suaves y continuos en la
-        apariencia de los objetos. Tanto la rotación como la transición son
-        técnicas importantes en la graficación y se utilizan comúnmente en la
-        creación de animaciones, efectos visuales y juegos. Estas técnicas
-        permiten a los artistas de la graficación crear movimientos y cambios
-        complejos en la apariencia de los objetos de una manera eficaz y
-        eficiente.</p>
     </div>
-
-    <!--Footer-->
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted"
-          >Creado por: Miguel Raziel Jesus Fernandez Pascual y Edwin Abiezer
-          Cruz de Dios</span
-        >
+    <div class="col">
+      <div class="card">
+        <img src="assets/img/rotate.png" class="card-img-custom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">rotate()</h5>
+          <p class="card-text">esta propiedad gira la figura alrededor de su centro. Se puede especificar un ángulo en
+            grados, positivo para rotar en
+            sentido horario y negativo para rotar en sentido antihorario. Ejemplo: transform: rotate(45deg);</p>
+        </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/img/scale.png" class="card-img-custom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">scale()</h5>
+          <p class="card-text">esta propiedad escala la figura en tamaño. Se puede especificar un factor de escala
+            horizontal y/o vertical, con 1 como
+            valor predeterminado. Ejemplo: transform: scale(1.5, 0.5);</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/img/skew.png" class="card-img-custom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">skew()</h5>
+          <p class="card-text">esta propiedad inclina la figura en un ángulo específico. Se puede especificar un ángulo
+            de inclinación horizontal y/o
+            vertical en grados. Ejemplo: transform: skew(20deg, -10deg);</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="height: 60px;"></div> <!-- espacio en blanco para el pie de página -->
+
+  <!--Footer-->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">Creado por: Miguel Raziel Jesus Fernandez Pascual y Edwin Abiezer
+        Cruz de Dios</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
